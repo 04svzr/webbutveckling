@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meny | Antons Konditori</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/kanelbulle.png">
+</head>
+<body>
+    <nav>   
+        <img src="img/logo.png" class="logo" alt="Antons Konditori">
+        <div class="navbar">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="meny.html">Meny</a></li>
+                <li><a href="omoss.html">Om oss</a></li>
+            </ul>
+        </div>
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="meny.html"><u>Vår Meny</u></a></li>
+            <li><a href="omoss.html">Om oss</a></li> 
+        </ul>
+        <div class="mobile-menu"></div>
+    </nav>
+    
+    <section class="main meny">
+        <div class="grid">
+            <img class="menu-image-left" src="img/cake1.jpg" alt="Bakery Item 1">
+            <img class="menu-image-center" src="img/cake2.jpg" alt="Bakery Item 2">
+            <img class="menu-image-right" src="img/cake3.webp" alt="Bakery Item 3">
+            <img class="menu-image-left" src="img/cake4.jpg" alt="Bakery Item 4">
+            <img class="menu-image-center" src="img/cake5.jpg" alt="Bakery Item 5">
+            <img class="menu-image-right" src="img/cake6.jpg" alt="Bakery Item 6">
+        </div>
+    </section>   
+    <footer>
+        <p>Antons Konditori - Företagsgatan 3, Svedala</p>
+        <p><a href="mailto:04svzr@skola.svedala.se" target="_blank">04svzr@skola.svedala.se</a></p>
+        <a href="index.html">Hem</a> 
+        <a href="meny.html">Vår Meny</a> 
+        <a href="omoss.html">Om oss</a>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>

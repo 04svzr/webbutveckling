@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om oss | Antons Konditori</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/kanelbulle.png">
+</head>
+<body>
+    <nav>   
+        <img src="img/logo.png" class="logo" alt="Antons Konditori">
+        <div class="navbar">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="meny.html">Meny</a></li>
+                <li><a href="omoss.html">Om oss</a></li>
+            </ul>
+        </div>
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="meny.html">Vår Meny</a></li>
+            <li><a href="omoss.html"><u>Om oss</u></a></li> 
+        </ul>
+        <div class="mobile-menu"></div>
+    </nav>
+    
+    <section class="main">
+        <div class="maintext">
+            <p>Välkommen till Antons Konditori, en pärla med anor som sträcker sig tillbaka över generationer. Historien om Antons började på en småstadsgata där doften av nybakt bröd och kaffe lockade förbipasserande.</p>
+            <p>Året var 1950 när den passionerade konditorn Anton Karlsson öppnade sina dörrar för första gången. Med en hängivenhet för att skapa konstverk i form av bakverk erövrade han snabbt hjärtan i staden. Hans kreativitet och noggrannhet genomsyrade varje kaka och tårta som lämnade konditoriet.</p>
+            <p>Under årens lopp växte Antons Konditori från ett litet bageri till ett blomstrande företag. Antons son, Erik Karlsson, övertog rodret och förde traditionen vidare. Med moderna twistar och innovativa smaker fortsatte han att erbjuda kunderna en smakupplevelse utöver det vanliga.</p>
+            <p>Idag är Antons Konditori en träffpunkt där människor samlas för att njuta av handgjorda bakverk och skapa minnen. Det gamla familjeföretaget har anpassat sig till nya trender och behållit den genuina känslan av ett lokalt konditori.</p>
+            <p>Vi bär stolt på arvet från Anton och strävar alltid efter att hålla hans anda vid liv. Vår passion för bakning är stark, och varje dag fortsätter vi att skapa delikatesser som för tankarna tillbaka till de första dagarna på Antons Konditori.</p>
+            <p>Välkommen att vara en del av vår historia och smaka på traditionen som lever kvar i varje tugga.</p>
+        </div>
+
+        <div class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed/v1/place?q=Svedala,+Sverige&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                    width="auto"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                ></iframe>
+                <p>Välkommen till oss på Företagsgatan 3 i Svedala!</p>
+        </div>
+    </section>
+       
+    <footer>
+        <p>Antons Konditori - Företagsgatan 3, Svedala</p>
+        <p><a href="mailto:04svzr@skola.svedala.se" target="_blank">04svzr@skola.svedala.se</a></p>
+        <a href="index.html">Hem</a> 
+        <a href="meny.html">Vår Meny</a> 
+        <a href="omoss.html">Om oss</a>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>

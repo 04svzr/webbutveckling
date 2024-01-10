@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hem | Antons Konditori</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/kanelbulle.png">
+</head>
+<body>
+    <nav>   
+        <img src="img/logo.png" class="logo" alt="Antons Konditori">
+        <div class="navbar">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="meny.html">Meny</a></li>
+                <li><a href="omoss.html">Om oss</a></li>
+            </ul>
+        </div>
+        <ul>
+            <li><a href="index.html"><u>Hem</u></a></li>
+            <li><a href="meny.html">Vår Meny</a></li>
+            <li><a href="omoss.html">Om oss</a></li> 
+        </ul>
+        <div class="mobile-menu"></div>
+    </nav>
+    
+    <section class="main">
+        <div class="maintext">
+            <p>Välkommen till Antons Konditori – en plats där varje bakelse bär på en historia av passion och hantverk. Här på Antons skapar vi inte bara delikatesser, vi skapar minnen.</p>
+            <p>Våra konditorer, inspirerade av både tradition och kreativitet, arbetar varje dag för att erbjuda dig det allra bästa inom bakverk. Varje ingrediens väljs med omsorg och varje tårta bakas med kärlek.</p>
+            <p>Vi strävar efter att göra varje besök till en fest för dina sinnen. Njut av doften av nybryggt kaffe när du kliver in genom dörren och låt ögonblicket av att välja bland vårt sortiment av färska bakverk vara en fröjd för ögat.</p>
+            <p>Utforska vår meny och upptäck allt från klassiska kanelbullar till innovativa tårtkonstverk. Vi är stolta över att erbjuda ett brett utbud av alternativ för att tillfredsställa alla smaker och preferenser.</p>
+            <p>Hos Antons Konditori är varje kund en vän, och varje smak är en resa genom vårt engagemang för kvalitet och goda smaker. Vi ser fram emot att få dela våra bakverk med dig och skapa smakrika minnen tillsammans!</p>
+            <p>Vi finns på Företagsgatan 3 i Svedala!</p>
+            <p><b>Öppetider:</b></p>
+            <p>Måndag - Fredag: 10:00 - 16:00</p>
+            <p>Lördag och Söndag: 10:00 - 13:30</p>
+        </div>
+        <div class="column">
+            <a href="meny.html"><img id="kondis" src="img/kondis.jpg" alt="Vårt utbud av vackra bakverk" title="Klicka här för att se vår meny"></a>
+            <img class="images" src="img/cake2.jpg" alt="Miniontårta" title="Miniontårta">
+        </div>
+    </section>
+       
+    <footer>
+        <p>Antons Konditori - Företagsgatan 3, Svedala</p>
+        <p><a href="mailto:04svzr@skola.svedala.se" target="_blank">04svzr@skola.svedala.se</a></p>
+        <a href="index.html">Hem</a> 
+        <a href="meny.html">Vår Meny</a> 
+        <a href="omoss.html">Om oss</a>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
